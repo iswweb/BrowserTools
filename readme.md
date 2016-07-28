@@ -9,7 +9,7 @@ BrowserTools主要是一系列的基于浏览器收藏夹栏的快捷小工具�
 
 * 1.将当前页面生成一个二维码通过手机扫描发送到手机上。
 
-`@发送到手机` [M](javascript:\(function\(\){var u=document.URL;var w=window.open\('http://qr.liantu.com/api.php?text='+encodeURIComponent\(u\),'_blank'\);w.focus\(\);}\)\(\);)
+`@发送到手机`
 ```javascript
 javascript:(function(){var u=document.URL;var w=window.open('http://qr.liantu.com/api.php?text='+encodeURIComponent(u),'_blank');w.focus();})();
 ```
